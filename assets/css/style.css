@@ -843,14 +843,14 @@ textarea.input {
     border-color: #dd4b39;
 }
 
-.sticky-shares a.share-pinterest:hover {
-    color: #ff0000;
-    border-color: #ff0000;
+.sticky-shares a.share-whatsapp:hover {
+    color: #00ce3a;
+    border-color: #00ce3a;
 }
 
-.sticky-shares a.share-linkedin:hover {
-    color: #007bb5;
-    border-color: #007bb5;
+.sticky-shares a.share-instagram:hover {
+    color: #dd189c;
+    border-color: #dd189c;
 }
 
 /*----------------------------*\

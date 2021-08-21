@@ -21,12 +21,10 @@ $pecah = $ambil->fetch_object();
         <p><?php echo $pecah->berita_isi ?></p>
     </div>
     <div class="post-shares sticky-shares">
-        <a href="#" class="share-facebook"><i class="fa fa-facebook"></i></a>
-        <a href="#" class="share-twitter"><i class="fa fa-twitter"></i></a>
-        <a href="#" class="share-google-plus"><i class="fa fa-google-plus"></i></a>
-        <a href="#" class="share-pinterest"><i class="fa fa-pinterest"></i></a>
-        <a href="#" class="share-linkedin"><i class="fa fa-linkedin"></i></a>
-        <a href="#"><i class="fa fa-envelope"></i></a>
+        <a href="#" target="_blank" class="share-whatsapp"><i class="fa fa-whatsapp"></i></a>
+        <a href="#" target="_blank" class="share-facebook"><i class="fa fa-facebook"></i></a>
+        <a href="#" target="_blank" class="share-google-plus"><i class="fa fa-google-plus"></i></a>
+        <a href="https://www.instagram.com/kejaripalangkaraya/" target="_blank" class="share-instagram"><i class="fa fa-instagram"></i></a>
     </div>
     <div class="chatbox">
         <div class="panel panel-primary">

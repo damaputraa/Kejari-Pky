@@ -6,7 +6,7 @@
             <div class="col-md-5">
                 <div class="footer-widget">
                     <div class="footer-logo">
-                        <a href="index.php" class="logo"><img src="assets/image/icon.png" height="100" alt=""></a>
+                        <a href="index.php" class="logo"><img src="assets/image/icon.png" height="200" alt=""></a>
                     </div>
                     <ul class="footer-nav">
                         <li><a href="#">SATYA</a></li>
@@ -16,7 +16,7 @@
                     <div class="footer-copyright">
                         <span>&copy;
                             <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                            Copyright &copy;<script>
+                            <script>
                                 document.write(new Date().getFullYear());
                             </script> Copyright <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="#" target="_blank">Kejaksaan Negeri Palangka Raya</a>
                             <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
@@ -29,16 +29,20 @@
                 <div class="row">
                     <div class="col-md-6">
                         <div class="footer-widget">
-                            <h3 class="footer-title">About Us</h3>
+                            <h3 class="footer-title">ORGANISASI</h3>
                             <ul class="footer-links">
-                                <li><a href="index.php?page=about">About Us</a></li>
-                                <li><a href="index.php?page=contact">Contacts</a></li>
+                                <li class="sub"><a href="#">Pembinaan</a></li>
+                                <li class="sub"><a href="#">Intelijen</a></li>
+                                <li class="sub"><a href="#">Perkara Perdata & Tata Usaha</a></li>
+                                <li class="sub"><a href="#">Pengelolaan Barang Bukti dan Barang Rampasan</a></li>
+                                <li class="sub"><a href="#">Pidana Umum</a></li>
+                                <li class="sub"><a href="#">Pidana Khusus</a></li>
                             </ul>
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="footer-widget">
-                            <h3 class="footer-title">Catagories</h3>
+                            <h3 class="footer-title">KATEGORI</h3>
                             <ul class="footer-links">
                                 <?php
                                 $ambil = $koneksi->query("SELECT * FROM tb_kategori");
@@ -56,19 +60,8 @@
 
             <div class="col-md-3">
                 <div class="footer-widget">
-                    <h3 class="footer-title">Join our Newsletter</h3>
-                    <div class="footer-newsletter">
-                        <form>
-                            <input class="input" type="email" name="newsletter" placeholder="Enter your email">
-                            <button class="newsletter-btn"><i class="fa fa-paper-plane"></i></button>
-                        </form>
-                    </div>
-                    <ul class="footer-social">
-                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                        <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
-                    </ul>
+                    <h3 class="footer-title">PETA LOKASI</h3>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3986.8386339941194!2d113.92419611464372!3d-2.2144882379672697!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dfcb2f52485c53f%3A0x40393d0ae91ffd58!2sKejaksaan%20Negeri%20Palangkaraya!5e0!3m2!1sid!2sid!4v1626617592680!5m2!1sid!2sid" width="300" height="180" style="border-radius:8px;" allowfullscreen="" loading="lazy"></iframe>
                 </div>
             </div>
 

@@ -139,13 +139,13 @@
 
         if ($no != 1) { ?>
             <div class="col-md-6">
-                <div class="post" style="height:400px;">
+                <div class="post" style="height:500px;">
                     <a class="post-img" href="index.php?page=detail&id= <?php echo $pecah1->berita_id ?>">
                         <?php
                         // var_dump($pecah1);
                         // $pecah1
                         if (!empty($pecah1->berita_gambar)) { ?>
-                            <img src="admin/assets/gambar_berita/<?php echo $pecah1->berita_gambar ?>" alt="load gagal" style="width:100%;height:300px;">
+                            <img src="admin/assets/gambar_berita/<?php echo $pecah1->berita_gambar ?>" alt="load gagal" style="width:100%;height:400px;">
                         <?php } else { ?>
                             <img src="admin/assets/gambar_berita/2.png" alt="load gagal" style="width:100%;height:240px;">
                         <?php } ?>

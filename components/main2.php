@@ -63,7 +63,7 @@
             <a class="post-img" href="index.php?page=detail&id=<?php echo $pecah1->berita_id ?>"><img src="admin/assets/gambar_berita/<?php echo $pecah1->berita_gambar ?>" alt="" style="width: 360px; height: 200px"></a>
             <div class="post-body">
                 <div class="post-meta">
-                    <a class="post-category cat-<?php echo $pecah1->kategori_id;  ?> " href="?page=kategori&id=<?php echo $pecah1->kategori_id;  ?>"><?= $pecah1->kategori_nama; ?></a>
+                    <a class="post-category cat-s<?php echo $pecah1->kategori_id;  ?> " href="?page=kategori&id=<?php echo $pecah1->kategori_id;  ?>"><?= $pecah1->kategori_nama; ?></a>
                     <span class="post-date"><?= tgl_indo($pecah1->berita_tanggal); ?></span>
 
                 </div>

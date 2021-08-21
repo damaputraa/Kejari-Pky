@@ -14,7 +14,8 @@
       <div class="card-header">
 
         <i class="fas fa-table"></i>
-        Data Table Kategori</div>
+        Data Table Kategori
+      </div>
       <div class="card-body">
         <a href="index.php?page=module/Kategori/tambah" class="btn btn-primary" style="float: right">Tambah Data</a> <br><br>
         <div class="table-responsive">
@@ -42,7 +43,7 @@
                   <td><?php echo $pecah->kategori_nama ?></td>
                   <td>
                     <a href="index.php?page=module/kategori/edit&id= <?php echo $pecah->kategori_id ?>" class="btn btn-warning">Edit</a>
-                    <a href="index.php?page=module/kategori/hapus&id= <?php echo $pecah->kategori_id ?>" class="btn btn-danger">Hapus</a>
+                    <a href="index.php?page=module/kategori/hapus&id= <?php echo $pecah->kategori_id ?>" class="btn btn-danger" onclick="confirm('Yakin Ingin Menghapus ?')">Hapus</a>
                   </td>
                 </tr>
               <?php } ?>
@@ -60,7 +61,7 @@
   <footer class="sticky-footer">
     <div class="container my-auto">
       <div class="copyright text-center my-auto">
-        <span>Copyright © Your Website 2019</span>
+        <span>Copyright © Kejaksaan Negeri <?= date("Y") ?></span>
       </div>
     </div>
   </footer>

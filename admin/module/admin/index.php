@@ -25,7 +25,8 @@
                 <th>No</th>
                 <th>Nama</th>
                 <th>Username</th>
-                <th>Password</th>
+                <!-- Hide Password -->
+                <!-- <th>Password</th> -->
                 <th>Aksi</th>
               </tr>
             </thead>
@@ -44,7 +45,8 @@
                   <td><?php echo $no++ ?></td>
                   <td><?php echo $pecah->admin_nama ?></td>
                   <td><?php echo $pecah->admin_username ?></td>
-                  <td><?php echo $pecah->admin_password ?></td>
+                  <!-- Hide Password -->
+                  <!-- <td><?php echo $pecah->admin_password ?></td> -->
                   <td>
                     <a href="index.php?page=module/admin/edit&id= <?php echo $pecah->admin_id ?>" class="btn btn-warning">Edit</a>
                     <a href="index.php?page=module/admin/hapus&id= <?php echo $pecah->admin_id ?>" class="btn btn-danger" onClick="alert('Apakah Yakin Ingin Menghapus ini ?')">Hapus</a>

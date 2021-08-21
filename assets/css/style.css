@@ -654,7 +654,7 @@ textarea.input {
     border-radius: 2px;
     margin-right: 15px;
     color: #FFF;
-    background-color: #212631;
+    background-color: #4BB92F;
     -webkit-transition: 0.2s opacity;
     transition: 0.2s opacity;
 }
@@ -1203,5 +1203,10 @@ textarea.input {
 
     .post.post-row .post-body p {
         display: none;
+    }
+    .footer-logo .logo {
+        text-align: center;
+        justify-items: center;
+        align-items: center;
     }
 }

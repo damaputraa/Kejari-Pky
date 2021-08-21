@@ -14,7 +14,8 @@
       <div class="card-header">
 
         <i class="fas fa-table"></i>
-        Data Table Berita</div>
+        Data Table Berita
+      </div>
       <div class="card-body">
         <a href="index.php?page=module/berita/tambah" class="btn btn-primary" style="float: right">Tambah Data</a> <br><br>
         <div class="table-responsive">
@@ -57,7 +58,7 @@
                   <td><?php echo $pecah->berita_lihat ?></td>
                   <td>
                     <a href="index.php?page=module/berita/edit&id= <?php echo $pecah->berita_id ?>" class="btn btn-warning">Edit</a>
-                    <a href="index.php?page=module/berita/hapus&id= <?php echo $pecah->berita_id ?>" class="btn btn-danger">Hapus</a>
+                    <a href="index.php?page=module/berita/hapus&id= <?php echo $pecah->berita_id ?>" class="btn btn-danger" onclick="confirm('Yakin Ingin Menghapus ?')">Hapus</a>
                   </td>
                 </tr>
               <?php } ?>
@@ -65,7 +66,6 @@
           </table>
         </div>
       </div>
-      <div class="card-footer small text-muted">Updated yesterday at 11:59 PM</div>
     </div>
 
   </div>
@@ -75,7 +75,7 @@
   <footer class="sticky-footer">
     <div class="container my-auto">
       <div class="copyright text-center my-auto">
-        <span>Copyright © Your Website 2019</span>
+        <span>Copyright © Kejaksaan Negeri <?= date("Y") ?></span>
       </div>
     </div>
   </footer>
